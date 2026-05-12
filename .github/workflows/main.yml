@@ -13,15 +13,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-#      - name: Setup Node.js
-#        uses: actions/setup-node@v2
-#        with:
-#          #node-version: 20.18.1
-#          node-version: 12
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          #node-version: 20.18.1
+          node-version: 18
 
-#      - name: Install dependencies
-#        run: npm install
-#        working-directory: telon-gateway-app
+      - name: Install dependencies
+        run: npm install
+        working-directory: telon-gateway-app
 #
 #      - name: Run tests
 #        run: npm test
